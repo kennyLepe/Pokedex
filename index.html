@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokedex Kenny</title> 
+
+<style>
+      body{
+            background-color: rgba(167, 81, 150, 0.495)
+        }
+        
+        form{
+          padding-bottom: 20px;
+        }
+        
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+       </head>
+    <body>
+        <h3 style="text-align: center;">Pokedex</h3>
+        <script src="pokedex.js"></script>
+        <div class="container d-flex flex-column align-items-center">
+            <img id="pokeimg" src="" alt="Pokemon-image">
+            <h1 id="name">Pokename</h1>
+            <div>
+                <p id="type"></p>
+            </div>
+            <div>
+                <h3>Ataques: </h3>
+                <ul id="moves-list">
+                    <li class="move"></li>
+                    <li class="move"></li>
+                    <li class="move"></li>
+                    <li class=move></li>
+                    <li class="move"></li>
+                    <li class="move"></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Características:</h3>
+                <ul>
+                    <li id="height"></li>
+                    <li id="weight"></li>
+                </ul>
+            </div>
+            <form>
+                <input type="text" placeholder="Pokemon">
+                <input type="submit" value="Find">
+            </form>
+        </div>
+    </body>
+</html>
